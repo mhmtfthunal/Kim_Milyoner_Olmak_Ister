@@ -12,7 +12,7 @@ Console.WriteLine("Şıklar:");
 Console.WriteLine("A) Lama");
 Console.WriteLine("B) Deve");
 
-char cevap1= Convert.ToChar(Console.ReadLine().ToUpper()); //tek karakter girileceği için char kullandım onu da stringten convert ediyorum. Aynı zamanda büyük-küçük harf duyarlılığı sağlanıyor.
+char cevap1= Convert.ToChar(Console.ReadLine().ToUpper()); //tek karakter girileceği için char kullandım onu da stringten convert ediyorum. Aynı zamanda büyük-küçük harf duyarlılığı ortadan kaldırılıyor.
 //doğru cevapları tutmak için tanım
 int sayac = 0;
 
@@ -31,7 +31,7 @@ Console.WriteLine("Şıklar:");
 Console.WriteLine("A) Venüs");
 Console.WriteLine("B) Mars");
 
-char cevap2 = Convert.ToChar(Console.ReadLine().ToUpper()); //tek karakter girileceği için char kullandım onu da stringten convert ediyorum. Aynı zamanda büyük-küçük harf duyarlılığı sağlanıyor.
+char cevap2 = Convert.ToChar(Console.ReadLine().ToUpper()); //tek karakter girileceği için char kullandım onu da stringten convert ediyorum. Aynı zamanda büyük-küçük harf duyarlılığı ortadan kaldırılıyor.
 
 if (cevap2 == ('B'))
 {
@@ -55,7 +55,7 @@ else
     Console.WriteLine("A) Ankara");
     Console.WriteLine("B) İstanbul");
 
-    char cevap3 = Convert.ToChar(Console.ReadLine().ToUpper()); //tek karakter girileceği için char kullandım onu da stringten convert ediyorum. Aynı zamanda büyük-küçük harf duyarlılığı sağlanıyor.
+    char cevap3 = Convert.ToChar(Console.ReadLine().ToUpper()); //tek karakter girileceği için char kullandım onu da stringten convert ediyorum. Aynı zamanda büyük-küçük harf duyarlılığı ortadan kaldırılıyor.
 
     if (cevap3 == ('A'))
     {
